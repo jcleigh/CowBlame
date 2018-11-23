@@ -1,8 +1,6 @@
 class CowBlame
-
   def self.cow
-    random_line = nil
-    name = File.join( File.dirname(__FILE__), '/names.txt')
+    name = File.join(File.dirname(__FILE__), '/names.txt')
     random_line = File.readlines(name).sample
     random_line.gsub!(/\r\n?/, "")
 
@@ -16,6 +14,7 @@ class CowBlame
                    ||----w | \\/
                    ||     ||
     "
-    puts cow
-    end
+  end
+  puts cow
+
 end
