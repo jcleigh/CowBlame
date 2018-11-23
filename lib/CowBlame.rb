@@ -2,11 +2,10 @@ class CowBlame
 
   def self.cow
     random_line = nil
-    File.open('names.txt') do |file|
-      file_lines = file.readlines
-      random_line = file_lines[Random.rand(0...file_lines.size)]
-      random_line.gsub!(/\r\n?/, "")
-    end
+    name = File.join( File.dirname(__FILE__), '/names.txt')
+    random_line = File.readlines(name).sample
+    random_line.gsub!(/\r\n?/, "")
+
     cow = "
     IT WAS #{random_line.upcase.chomp}
     I SWEAR!
