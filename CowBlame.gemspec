@@ -16,5 +16,6 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://rubygems.org/gems/CowBlame}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{2.3.0}
-  s.summary = %q{All your Cat}
+  s.summary = %q{All your Cows}
   s.homepage = %q{https://github.com/fonzi/CowBlame}
+end
