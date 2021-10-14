@@ -4,7 +4,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name               = "cowblame"
-  s.version            = "0.0.4"
+  s.version            = "0.0.6"
   s.default_executable = "cowblame"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
