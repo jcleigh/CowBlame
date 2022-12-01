@@ -3,7 +3,6 @@ Nathan
 Mark
 Amy
 Chris
-Fonzi
 James
 David
 Ali
@@ -35,6 +34,4 @@ Kat
 Gui
 Paulo
 Rick
-Sidney
-Carlos
-Stan
+Tiago
